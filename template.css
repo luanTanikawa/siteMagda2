@@ -11,8 +11,17 @@ html {
 }
 
 body {
+    background-color: #FEFAEF;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
     display: flex;
     justify-content: flex-end;
+    max-width: 1600px;
+    border: 2px solid #A4113A;
+
 }
 
 
@@ -32,12 +41,12 @@ body {
 
 
 .menu {
-    position: fixed;
+    position: sticky;
     padding: 5px;
     width: 22%;
     background-color: #F2DBCE;
     height: 100vh;
-    left: 0px;
+    top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
