@@ -668,7 +668,7 @@ footer {
     }
 
     .terapia-text2-area {
-        width: 600px;
+        max-width: 600px;
         margin: 0px;
     }
 
@@ -783,7 +783,7 @@ footer {
 
 
     .terapia-text2-area {
-        width: 400px;
+        max-width: 400px;
     }
 
     .terapia-text2-area .campos{
