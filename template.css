@@ -20,8 +20,6 @@ body {
     display: flex;
     justify-content: flex-end;
     max-width: 1600px;
-    border: 2px solid #A4113A;
-
 }
 
 
@@ -41,12 +39,12 @@ body {
 
 
 .menu {
-    position: sticky;
+    position: fixed;
     padding: 5px;
     width: 22%;
     background-color: #F2DBCE;
     height: 100vh;
-    top: 0px;
+    left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -615,6 +613,20 @@ footer {
     }
 }
 
+
+@media (min-width: 1600px) {
+
+    .menu {
+        position: sticky;
+        top: 0px;
+    }
+
+    .container {
+        border-right: 2px solid #A4113A;
+        border-left: 2px solid #A4113A;
+
+}
+}
 
 
 @media (max-width: 1131px) {
