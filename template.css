@@ -414,6 +414,10 @@ body {
     margin-top: 20px;
 }
 
+.sobremim-redes a {
+    color: #000;
+}
+
 .sobremim-redes-area {
     background-color: #F2B56B;
     width: 180px;
