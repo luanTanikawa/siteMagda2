@@ -787,6 +787,12 @@ footer {
     .menu-icon img {
         display: block;
     }
+
+    .duvidas-box {
+        
+        width: 90%;
+       
+    }
 }
 
 @media (max-width: 768px) {
