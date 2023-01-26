@@ -247,9 +247,10 @@ body {
     padding: 20px;
     border-radius: 30px;
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
     margin-right: 30px;
+    line-height: 22px;
 }
 
 .terapia-text1 img {
@@ -406,6 +407,8 @@ body {
 
 .sobremim-area2 p {
     text-align: justify;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .sobremim-redes {
@@ -836,7 +839,7 @@ footer {
     .box p {
         font-weight: 400;
         font-size: 16px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 }
 
@@ -898,7 +901,7 @@ footer {
     .box p {
         font-weight: 400;
         font-size: 14px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .terapia-text1 img {
@@ -910,6 +913,17 @@ footer {
         width: 60px;
         margin-top: 20px;
     }
+
+    .botao{
+    font-size: 12px;
+    padding: 10px;
+    background-color: #A4113A;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-flex;
+    font-family: 'Montserrat';
+}
 }
 
 
@@ -941,7 +955,7 @@ footer {
     .box p {
         font-weight: 400;
         font-size: 12px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     
     
