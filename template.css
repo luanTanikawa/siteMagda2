@@ -41,7 +41,7 @@ body {
 .menu {
     position: fixed;
     padding: 5px;
-    width: 22%;
+    width: 20%;
     background-color: #F2DBCE;
     height: 100vh;
     left: 0px;
@@ -61,7 +61,7 @@ body {
 .menu li {
     list-style: none;
     font-family: 'sacramento';
-    font-size: 38px;
+    font-size: 30px;
     border-bottom: 1px solid #000;
     margin-bottom: 30px;
 }
@@ -114,7 +114,7 @@ body {
 
 
 .conteudo {
-    width: 78%;
+    width: 80%;
 }
 
 
@@ -520,7 +520,7 @@ body {
 .atendimentoonline-conteudo{
     display: flex;
     align-items: center;
-    margin: 30px 10px 0px 10px;
+    margin: 30px 10px 30px 10px;
 }
 
 .atendimentoonline-conteudo img {
@@ -550,7 +550,24 @@ body {
 
 
 
+.avaliacao-conteudo {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
 
+.avaliacao-box {
+    background-color: #f2b56b8f;
+    max-width: 350px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid #A4113A;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
 
 
 
@@ -579,7 +596,7 @@ body {
     margin: auto;
     font-family: 'Montserrat';
     margin-bottom: 20px;
-    padding: 15px 0px;
+    padding: 10px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -608,16 +625,33 @@ body {
 
 
 footer {
-    background-color: #000;
-    color: #fff;
-    height: 50px;
+    color: #000;
     font-family: 'Montserrat';
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: bold;
 }
 
+footer .aviso {
+    background-color: #F2B56B;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
+
+footer .identificação {
+    padding: 10px;
+    background-color: #FEFAEF;
+    width: 100%;
+
+
+}
 
 
 
@@ -648,6 +682,11 @@ footer {
     .atendimentoonline-conteudo {
         flex-direction: column-reverse;
         align-items: center;
+        margin-top: 30px;
+    }
+
+    .atendimentoonline-conteudo img {
+        margin-right: 0px;
         margin-top: 30px;
     }
 }
