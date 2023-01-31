@@ -296,7 +296,12 @@ body {
 
 
 
+.descricão {
 
+    padding: 20px;
+    font-family: 'Montserrat';
+
+}
 
 
 
@@ -559,7 +564,7 @@ body {
 }
 
 .avaliacao-box {
-    background-color: #f2b56b8f;
+    background-color: #f2b56b59;
     max-width: 350px;
     border-radius: 20px;
     padding: 15px;
