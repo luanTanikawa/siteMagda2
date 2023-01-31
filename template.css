@@ -204,11 +204,20 @@ body {
 
 .box p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
+.box .p2 {
+    font-weight: bold;
+    color: #A4113A;
+    text-align: center;
+}
 
+.box .p3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
 
 
 
@@ -313,14 +322,14 @@ body {
 .terapiaonline,
 .sobremim .titulo {
     font-family: 'Montserrat';
-    background-color: #FEFAEF;
+    background-color: #fff;
 
 }
 
 .terapiaonline .titulo,
 .sobremim .titulo {
     text-align: center;
-    background-color: #FEFAEF;
+    background-color: #fff;
     font-weight: 600;
     color: #A4113A;
     border-top: 2px solid #A4113A;
@@ -451,7 +460,7 @@ body {
     background-color: #F2DBCE;
     border: 2px solid #A4113A;
     border-radius: 30px 0px 30px 0px;
-    width: 90%;
+    width: 75%;
     margin: 20px auto 20px auto;
     display: flex;
     flex-direction: column;
@@ -519,13 +528,13 @@ body {
 
 
 .atendimentoonline {
-    background-color: #FEFAEF;
+    background-color: #fff;
 }
 
 .atendimentoonline-conteudo{
     display: flex;
     align-items: center;
-    margin: 30px 10px 30px 10px;
+    margin: 30px 10px 0px 10px;
 }
 
 .atendimentoonline-conteudo img {
@@ -636,11 +645,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
 }
 
 footer .aviso {
-    background-color: #F2B56B;
+    background-color: #FEFAEF;
     width: 100%;
     padding: 10px;
 }
@@ -652,7 +660,7 @@ footer p {
 
 footer .identificação {
     padding: 10px;
-    background-color: #FEFAEF;
+    background-color: #F2B56B;
     width: 100%;
 
 
